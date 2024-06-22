@@ -103,10 +103,10 @@ _data.csv / _meta.csv - data type recorded in the file - 'data' for raw data, 'm
 |...|
 
 
-R EFERENCES
+REFERENCES  
 [1] AERPAW, “Aerial Experimentation Research Platform for Advanced Wireless,” 2020, "Accessed: 2020-10-12". [Online]. Available: https:
-//aerpaw.org/
+//aerpaw.org/  
 [2] O. O. Medaiyese, M. Ezuma, A. P. Lauf, and A. A. Adeniran, “Hier-archical learning framework for uav detection and identification,” arXiv
-preprint arXiv:2107.04908, 2021.
+preprint arXiv:2107.04908, 2021.  
 [3] O. Medaiyese, M. Ezuma, A. P. Lauf, and I. Guvenc, “Wavelet transform analytics for RF-based UAV detection and identification system using
-machine learning,” arXiv preprint arXiv:2102.11894, 2021.
+machine learning,” arXiv preprint arXiv:2102.11894, 2021.  
