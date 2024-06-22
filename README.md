@@ -1,6 +1,8 @@
 # Case Drone signature classification
 
 ## 1. Task
+Use the provided CardRF dataset to solve the following tasks:
+1. 
 
 
 
