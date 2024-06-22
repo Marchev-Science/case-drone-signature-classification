@@ -1,14 +1,20 @@
 # Case Drone signature classification
 
-## 1. Task:
+## 1. Task
+
 
 
 
 ## 2. Cardinal Radio Frequency (CARDRF) Dataset
+Original authors:  
 Olusiji O Medaiyese (email:medaiyese09@gmail.com)  
 Martins Ezuma (email: mcezuma@ncsu.edu)  
 Adrian P Lauf (email:adrian.lauf@louisville.edu)  
 Ayodeji A Adeniran (email:aaaden02@louisville.edu)
+
+Editor:
+Angel Marchev, Jr.
+
 
 ### INTRODUCTION
 
