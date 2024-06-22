@@ -17,7 +17,7 @@ In this work, we curated an open-source dataset called the Cardinal RF dataset, 
 TABLE I
 CATALOG OF RF DEVICES USED IN THE EXPERIMENT FOR 2.4 GHZ RF
 FINGERPRINT ACQUISITION.
-![](/img/table1.png)
+![](/img/table1.png)  
 The experiment was conducted during the Summer of 2020 (August 2020) using the AERPAW (Aerial Experimentation Research Platform for Advanced Wireless) facility [1] which is called the Lake Wheeler site. The site is located at 4191 Mid Pines Road, Raleigh, North Carolina, USA.
 
 ### EXPERIMENTAL MODEL AND DESIGN
@@ -37,25 +37,25 @@ The data acquisition is categorized into visual line-of-sight (VLOS) and beyond-
 
 The data labeling is done by a manual process using a directory and sub-directories. Fig. 3 shows the directory tree for the labeling of the RF dataset. The root directory is the name of the dataset repository, which is called CardRF. Because signals are captured at LOS and NLOS, two sub-directories are created for LOS and NLOS. Four categories of signals (i.e., UAV, UAV controller, Bluetooth, and WiFi) are collected for the LOS data collection. So for each category of signals, a sub-directory is created under the LOS directory to store the signals. Similarly, only UAV signals are captured at NLOS. So the NLOS directory only contains the UAV sub-directory. Please refer to [2], [3] for the detailed data description. Fig. 6 shows a signal captured from DJI Phantom 4 flight controller where the transient and steady state of the signal are labeled.
 
-![](/img/fig1.png)
+![](/img/fig1.png)  
 Fig. 1. The RFSSCS setup for visual line of sight capturing of signals from : (a) a UAV controller, (b) a UAV (DJI Matrice 600).
 
-![](/img/fig2.png)
+![](/img/fig2.png)  
 Fig. 2. The RFSSCS setup for beyond-visual-line-of-sight capturing of signals from UAV.
 
 CARDRF directory has the raw signals and it is split to train and test set already. The Processed CardRF directory has the sliced steady signals from LOS with respective class or label. Each signal in the processed CardRF directory has 1024 sampling points. MATLAB code used for processed CardRF is in code directory. In the code folder, there is a MATLAB file (SIGN ALP LOT.mlx) for plotting the signals. However, the raw signals need to be scaled by using a scale factor of 6. 581 e− 06 for the voltage. The detail of the scaling is in the file. 
 
 
-![](/img/fig3.png)
+![](/img/fig3.png)  
 Fig. 3. Directory tree for data label of the Cardinal RF dataset.
 
-![](/img/fig4.png)
+![](/img/fig4.png)  
 Fig. 4. Directory tree for the LOS UAV signal labels showing the UAV models and UAV flight modes as sub-directories and sub-directories of sub-directories, respectively.
 
-![](/img/fig5.png)
+![](/img/fig5.png)  
 Fig. 5. Directory tree for the NLOS UAV signal labels showing the UAV models and UAV flight modes as sub-directories and sub-directories of sub-directories, respectively.
 
-![](/img/fig6.png)
+![](/img/fig6.png)  
 Fig. 6. A typical example of a signal captured from DJi Phantom 4 flight controller (adopted from [2])
 
 ### Files structure
@@ -104,8 +104,8 @@ _data.csv / _meta.csv - data type recorded in the file - 'data' for raw data, 'm
 
 
 REFERENCES  
-[1] AERPAW, “Aerial Experimentation Research Platform for Advanced Wireless,” 2020, "Accessed: 2020-10-12". [Online]. Available: https:
-//aerpaw.org/  
+[1] AERPAW, “Aerial Experimentation Research Platform for Advanced Wireless,” 2020, "Accessed: 2020-10-12". [Online]. Available: 
+https://aerpaw.org/  
 [2] O. O. Medaiyese, M. Ezuma, A. P. Lauf, and A. A. Adeniran, “Hier-archical learning framework for uav detection and identification,” arXiv
 preprint arXiv:2107.04908, 2021.  
 [3] O. Medaiyese, M. Ezuma, A. P. Lauf, and I. Guvenc, “Wavelet transform analytics for RF-based UAV detection and identification system using
